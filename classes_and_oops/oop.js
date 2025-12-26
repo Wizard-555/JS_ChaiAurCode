@@ -32,8 +32,8 @@ function User(username, loginCount, isLoggedIn){
     return this      // we can remove this line also, because retur happend automatically
 }
 // constructor function (or call)
-const userOne = new User("hitesh", 12, true)
-const userTwo = new User("ChaiAurCode", 11, false)
+const userOne = new User("Ram", 12, true)
+const userTwo = new User("Mohit", 11, false)
 console.log(userOne);
 console.log(userTwo);
 
